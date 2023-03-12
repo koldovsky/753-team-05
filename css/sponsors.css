@@ -2,7 +2,7 @@
     background-color: #bd19d3;
     padding: 5px;
 }
-.sponsors_img img {
+.sponsors__img img {
     max-height: 200px;
     max-width: 200px;
     object-fit: cover;
