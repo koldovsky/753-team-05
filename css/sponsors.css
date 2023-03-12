@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+
+.sponsors__text h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+}
+.sponsors__text p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(169,191,211);
+}
+.sponsors {
+    background: url(../img/mountains.png);
+}
+
+.sponsors__img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
+.sponsors__img img {
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
+}
+
+/* .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+} */
