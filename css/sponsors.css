@@ -1,3 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+
+.sponsors__text h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+}
+.sponsors__text p {
+    font-family: 'Lato', sans-serif;
+    color: rgb(169,191,211);
+}
 .sponsors {
     background-color: #bd19d3;
     padding: 5px;
