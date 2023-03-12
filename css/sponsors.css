@@ -9,8 +9,7 @@
     color: rgb(169,191,211);
 }
 .sponsors {
-    background-color: #bd19d3;
-    padding: 5px;
+    background: url(../img/mountains.png);
 }
 
 .sponsors__img {
