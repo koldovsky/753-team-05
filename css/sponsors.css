@@ -1,4 +1,13 @@
-.column {
+.sponsors {
+    background-color: #bd19d3;
+    padding: 5px;
+}
+.sponsors_img img {
+    margin: auto;
+    width: 10%;
+}
+
+/* .column {
     float: left;
     width: 33.33%;
     padding: 5px;
@@ -8,4 +17,4 @@
     content: "";
     clear: both;
     display: table;
-}
+} */
