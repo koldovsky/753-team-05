@@ -3,8 +3,9 @@
     padding: 5px;
 }
 .sponsors_img img {
-    margin: auto;
-    width: 10%;
+    max-height: 200px;
+    max-width: 200px;
+    object-fit: cover;
 }
 
 /* .column {
