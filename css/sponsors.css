@@ -12,6 +12,13 @@
     background-color: #bd19d3;
     padding: 5px;
 }
+
+.sponsors__img {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 5px;
+}
+
 .sponsors__img img {
     max-height: 200px;
     max-width: 200px;
