@@ -4,4 +4,20 @@
 .cards__image {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    width: 50px;
+}
+.cards__title {
+    color: var(--main-color);
+}
+.cards__text {
+    color:  rgba(255,255,255,0.65);
+}
+.welcome__informayion-title {
+    color: var(--main-color);
+}
+.welcome__information-party-nevada {
+    color: var(--accent-color);
+}
+.welcome__information-text {
+    color:  rgba(255,255,255,0.65)
 }
