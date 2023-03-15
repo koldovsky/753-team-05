@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
+
+.footer__text h2 {
+    font-family: 'Abril Fatface', cursive;
+    color: #fff;
+}
