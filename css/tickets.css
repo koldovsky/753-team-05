@@ -3,6 +3,7 @@
     min-width: 320px;
     padding: 50px 24px 50px 24px;
     text-align: center;
+   
 }
 
 .tickets__title {
@@ -20,6 +21,20 @@
     padding-top: 30px;
 }
 
+.tickets__level-party {
+  
+    align-items: center ;
+ 
+
+}
+
+.tickets__icon {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+
+    
+}
 
 .level-party__title {
     font-family: Lato,sans-serif;
@@ -31,13 +46,28 @@
     color: rgba(255,255,255,0.65);
     font-family: Lato,sans-serif;
     padding-top: 20px;
+    
 }
 
 @media (min-width: 768px) {
     .ticket__newcomer-fan {
         display: flex;
         flex-wrap: wrap;
-        justify-content: space-around;
+        justify-content: center;
+    }
+    .tickets__level-party {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ticket__newcomer-fan {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .tickets__level-party {
+        width: 33%;
     }
 }
 
