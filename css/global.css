@@ -9,9 +9,8 @@
 
 :root {
     --h2-color: white;
-    --features-main-color: rgb(255, 255, 255);
-    --features-accent-color: rgb(169, 191, 211);
-
+    --main-color: rgb(255, 255, 255);
+    --accent-color: rgb(169, 191, 211);
 }
 
 img {
