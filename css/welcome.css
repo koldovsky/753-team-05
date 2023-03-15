@@ -12,6 +12,10 @@
 .cards__text {
     color:  rgba(255,255,255,0.65);
 }
+.welcome__information-image {
+    width: 334.4px;
+    height: 403.28px;
+}
 .welcome__informayion-title {
     color: var(--main-color);
 }
@@ -21,3 +25,13 @@
 .welcome__information-text {
     color:  rgba(255,255,255,0.65)
 }
+.welcome__button {  
+    background-color: rgb(23, 16, 41);
+    border-radius: 2px;
+    border: 3px solid white;
+    color: var(--main-color);
+    cursor: pointer;
+    font-weight: 700;
+    padding: 16px 25px;
+}
+    
