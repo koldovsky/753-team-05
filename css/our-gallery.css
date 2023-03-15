@@ -4,6 +4,7 @@
 
 .our-gallery__title {
     align-items: center;
+    color: var(--main-color);
     display: flex;
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
@@ -23,6 +24,7 @@
 
 .our-gallery__additional {
     align-items: center;
+    color: var(--main-color);
     display: flex;
     float: right;
     font-family: 'Lato', sans-serif;
@@ -62,6 +64,7 @@ span {
 }
 
 .quote__title {
+    color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-size: 40px;
@@ -74,6 +77,7 @@ span {
 }
 
 .quote__caption {
+    color: var(--main-color);
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 16px;
