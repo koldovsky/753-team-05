@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-@import "sponsors.css" ;
-
 @import "blocks.css";
-=======
 @import "global.css" ;
 @import "sponsors.css";
 @import "features.css";
@@ -10,4 +6,3 @@
 @import url("our-gallery.css");
 @import url("footer.css");
 @import "welcome.css";
->>>>>>> 212ca60a181128bf4cc58d7bed8ba445bea90c1a
