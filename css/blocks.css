@@ -3,15 +3,24 @@
 }
 
 .title__left {
-        font-family: 'Abril Fatface';
-        color:white;
-        justify-content: left;
-} 
+        font-family: 'Abril Fatface', cursive;
+        color: var(--main-color);
+        align-items: center;
+        text-align: justify;
+        font-size: 60px;
+        padding: 0 0 0 50px;
+        display: flex;
 
+}
+        
 .title_right {
+
     font-family: 'Lato', sans-serif;
-    color:rgb(169,191,211);
-    justify-content: center;
+    color: var(--main-color);
+    text-align: start;
+    letter-spacing: 1px;
+    text-align: center;
+    margin:auto;
 }
 
 
