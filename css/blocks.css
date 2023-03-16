@@ -1,0 +1,28 @@
+.blocks {
+    background-color: rgb(33, 21, 57);
+}
+
+.title__left {
+        font-family: 'Abril Fatface', cursive;
+        color: var(--main-color);
+        align-items: center;
+        text-align: justify;
+        font-size: 80px;
+        padding: 0 0 0 50px;
+        display: flex;
+}
+        
+.title__right {
+
+    font-family: 'Lato', sans-serif;
+    color: var(--main-color);
+    text-align: start;
+    letter-spacing: 1px;
+    text-align: center;
+    margin:auto;
+    font-size: 40px;
+}
+
+
+
+
