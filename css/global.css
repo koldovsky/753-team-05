@@ -14,6 +14,7 @@
     --main-color: rgb(255, 255, 255);
     --accent-color: rgb(169, 191, 211);
     --span-color: #BE61B9;
+    --bg-sponsors: rgba(255, 255, 255, 0.03);
     font-family: 'Abril Fatface', cursive;
     font-family: 'Lato', sans-serif;
 }

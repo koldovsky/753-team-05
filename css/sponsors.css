@@ -2,7 +2,7 @@
     font-family: 'Abril Fatface', cursive;
     font-size: 60px;
     letter-spacing: 1.8px;
-    color: #fff;
+    color: var(--h2-color);
 }
 
 .sponsors__description {
@@ -11,7 +11,7 @@
     font-weight: 400;
     letter-spacing: 1.8px;
     line-height: 28.8px;
-    color: rgb(169,191,211);
+    color: var(--accent-color);
     margin-top: 25px;
 }
 
@@ -56,12 +56,12 @@
 }
 
 .bg__img {
-    background-color: rgba(255, 255, 255, 0.03);
+    background-color: var(--bg-sponsors);
     display: flex;
 }
 
 .bg__img img {
     margin: auto;
-    width: 40%;
+    width: 50%;
     object-fit: cover;
 }
