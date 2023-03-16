@@ -7,10 +7,9 @@
         color: var(--main-color);
         align-items: center;
         text-align: justify;
-        font-size: 60px;
+        font-size: 80px;
         padding: 0 0 0 50px;
         display: flex;
-
 }
         
 .title__right {
@@ -21,6 +20,7 @@
     letter-spacing: 1px;
     text-align: center;
     margin:auto;
+    font-size: 40px;
 }
 
 
