@@ -14,18 +14,19 @@
     color: rgb(169,191,211);
     margin-top: 25px;
 }
+
 .sponsors {
     background: url(../img/mountains.png);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 24px;
 }
 
-.sponsors__img {
+.sponsors__img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
-}
-
-.sponsors__img img {
-    max-height: 200px;
-    max-width: 200px;
-    object-fit: cover;
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
 }
