@@ -17,7 +17,7 @@
 .title__right {
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
-    text-align: centre;
+    text-align:center;
     width: 300px;
     align-items: center;
     margin:auto;
