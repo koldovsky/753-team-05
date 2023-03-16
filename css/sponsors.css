@@ -54,3 +54,14 @@
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
+
+.placeholder__img {
+    background-color: rgba(255, 255, 255, 0.03);
+    display: flex;
+}
+
+.placeholder__img img {
+    margin: auto;
+    /*width: 50%;*/
+    object-fit: cover;
+}
