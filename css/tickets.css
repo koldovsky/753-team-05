@@ -1,9 +1,8 @@
 .tickets {
-    background: linear-gradient(0deg, rgb(56, 35, 101) 0%, rgb(23, 22, 24) 100%);;
+    background: var(--bg-tickets-color);
     min-width: 320px;
     padding: 50px 24px 50px 24px;
-    text-align: center;
-   
+    text-align: center; 
 }
 
 .tickets__title {
@@ -13,27 +12,22 @@
 }
 
 .ticket__sub-title {
-    color: var(--features-accent-color);
+    color: var(--sub-title-tickets-color);
     font-size: 18px;
     line-height: 1.6;
-    font-family: Lato,sans-serif;
+    font-family:'Lato', sans-serif;
     font-weight: 400;
     padding-top: 30px;
 }
 
 .tickets__level-party {
-  
     align-items: center ;
- 
-
 }
 
 .tickets__icon {
     width: 220px;
     margin-left: auto;
-    margin-right: auto;
-
-    
+    margin-right: auto;   
 }
 
 .level-party__title {
@@ -43,10 +37,9 @@
 }  
 
 .level-party__text {
-    color: rgba(255,255,255,0.65);
+    color: var(--text-tickets-color);
     font-family: Lato,sans-serif;
     padding-top: 20px;
-    
 }
 
 @media (min-width: 768px) {
@@ -54,6 +47,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
     .tickets__level-party {
         width: 50%;
@@ -65,6 +59,7 @@
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        align-items: center;
     }
     .tickets__level-party {
         width: 33%;
