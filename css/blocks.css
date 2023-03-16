@@ -2,22 +2,21 @@
     background-color: rgb(33, 21, 57);
 }
 
-
-
 .title__left {
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
     align-items: center;
     text-align: justify;
     font-size: 60px;
-    padding: 0 0 0 20px;
+    padding: 0 0 0 50px;
     font-weight: 400;
+    display: flex;
 }
         
 .title__right {
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
-    text-align: start;
+    text-align: centre;
     width: 300px;
     align-items: center;
     margin:auto;
@@ -32,7 +31,7 @@
     max-width: 1000px;
     justify-content: center;
     justify-items: center;
-    column-gap: 30px;
+    column-gap: 80px;
     row-gap: 40px;
     margin: 0 auto;
 }
