@@ -28,6 +28,24 @@
     color: var(--main-color);
 }
 
+.features__button {
+    background: var(--features-button-background-color);
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.features__button:first-child>svg {
+    transform: rotate(180deg);
+}
+.features__button>svg {
+    fill: var(--main-color);
+    height: 12px;
+    width: 12px;
+}
+
 .slides__image {
     height: 221px;
 }
