@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Kanit:wght@100&family=Lato&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
 
 * {
     margin: 0;
@@ -13,6 +14,7 @@
     --main-color: rgb(255, 255, 255);
     --accent-color: rgb(169, 191, 211);
     --span-color: #BE61B9;
+    --bg-sponsors: rgba(255, 255, 255, 0.03);
     font-family: 'Abril Fatface', cursive;
     font-family: 'Lato', sans-serif;
 }
