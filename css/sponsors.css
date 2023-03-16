@@ -30,3 +30,27 @@
     grid-auto-rows: 1fr;
     gap: 20px;
 }
+
+@media (min-width: 768px) {
+    .sponsors {
+        display: block;
+    }
+
+    .sponsors__img{
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (min-width: 992px) {
+    .sponsors {
+        display: flex;
+    }
+
+    .sponsors__text {
+        padding-right: 20px;
+    }
+
+    .sponsors__img {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
