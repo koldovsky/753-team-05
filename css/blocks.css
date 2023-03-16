@@ -2,18 +2,16 @@
     background-color: rgb(33, 21, 57);
 }
 
-.title{
 
-}
 
 .title__left {
-        font-family: 'Abril Fatface', cursive;
-        color: var(--main-color);
-        align-items: center;
-        text-align: justify;
-        font-size: 60px;
-        padding: 0 0 0 20px;
-        display: flex;
+    font-family: 'Abril Fatface', cursive;
+    color: var(--main-color);
+    align-items: center;
+    text-align: justify;
+    font-size: 60px;
+    padding: 0 0 0 20px;
+    font-weight: 400;
 }
         
 .title__right {
@@ -27,6 +25,26 @@
     float: right;
 }
 
+.blocks__card{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 225px);
+    width: 100%;
+    max-width: 1000px;
+    justify-content: center;
+    justify-items: center;
+    column-gap: 30px;
+    row-gap: 40px;
+    margin: 0 auto;
+}
+
+.blocks__card__first{
+    width: 225px;
+    min-height: 350px;
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    
+}
 
 
 
