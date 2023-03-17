@@ -58,11 +58,11 @@
     .ticket__newcomer-fan {
         display: flex;
         flex-wrap: wrap;
-        justify-content: center;
         align-items: center;
     }
     .tickets__level-party {
         width: 33%;
+       
     }
 }
 

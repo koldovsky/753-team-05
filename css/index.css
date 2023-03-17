@@ -2,7 +2,7 @@
 @import "global.css" ;
 @import "sponsors.css";
 @import "features.css";
-@import url(tickets.css);
+@import "tickets.css";
 @import url("our-gallery.css");
 @import url("footer.css");
 @import "welcome.css";
