@@ -7,25 +7,26 @@
 }
 .welcome__cards {
     display: flex;
-    align-items: center;
-    order: 1;
+    flex-direction: column;
 }
 .cards__image {
     width: 50px;
-    margin-right: 10px;
     float: left;
+    margin-bottom: 20px;
 }
 .cards__title {
     color: var(--main-color);
-    display: inline-block;
+    margin-bottom: 10px;
+    margin-left: 70px;
+    font-weight: bold
 }
 .cards__text {
     color: var(--text-tickets-color);
     font-size: 16px;
     line-height: 1.6;
     font-weight: 400;
-    display: inline-block;
-    display: block;
+    margin-bottom: 20px;
+    margin-left: 70px;
 }
 .welcome__information {
     width: 100%;
@@ -33,26 +34,27 @@
     
 }
 .welcome__information-image {
-    width: 334.4px;
-    height: 403.28px;
-    padding-top: 60px;
-    float: left;
+    padding-top: 30px;
     margin-right: 20px;
+    object-position: 50% 100%;
 }
 .welcome__informayion-title {
     color: var(--main-color);
     display: block;
-    margin-top: 130px;
+    margin-top: 50px;
+    text-align: center;
 }
 .welcome__information-party-nevada {
     color: var(--accent-color);
     display: block;
     margin-top: 30px;
+    text-align: center;
 }
 .welcome__information-text {
     color:  var(--text-tickets-color);
     display: block;
     margin-top: 30px;
+    text-align: center;
 }
 .welcome__button {  
     background-color: var(--bg-button-welcome);
@@ -64,5 +66,6 @@
     padding: 16px 25px;
     display: block;
     margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
 }
-    
