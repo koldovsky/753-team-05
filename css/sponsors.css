@@ -1,37 +1,67 @@
-@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Lato&display=swap');
-
-.sponsors__text h2 {
+.sponsors__title {
     font-family: 'Abril Fatface', cursive;
-    color: #fff;
+    font-size: 60px;
+    letter-spacing: 1.8px;
+    color: var(--h2-color);
 }
-.sponsors__text p {
+
+.sponsors__description {
     font-family: 'Lato', sans-serif;
-    color: rgb(169,191,211);
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1.8px;
+    line-height: 28.8px;
+    color: var(--accent-color);
+    margin-top: 25px;
 }
+
 .sponsors {
     background: url(../img/mountains.png);
+    background-position: center;
+    background-size: cover;
+    display: block;
+    padding: 24px;
 }
 
-.sponsors__img {
+.sponsors__img{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    gap: 5px;
+    margin-top: 30px;
+    grid-template-columns: 1fr;
+    grid-auto-rows: 1fr;
+    gap: 20px;
 }
 
-.sponsors__img img {
-    max-height: 200px;
-    max-width: 200px;
+@media (min-width: 768px) {
+    .sponsors {
+        display: block;
+    }
+
+    .sponsors__img{
+        grid-template-columns: 1fr 1fr;
+    }
+} 
+
+@media (min-width: 992px) {
+    .sponsors {
+        display: flex;
+    }
+
+    .sponsors__text {
+        padding-right: 20px;
+    }
+
+    .sponsors__img {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+.bg__img {
+    background-color: var(--bg-sponsors);
+    display: flex;
+}
+
+.bg__img img {
+    margin: auto;
+    width: 50%;
     object-fit: cover;
 }
-
-/* .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
