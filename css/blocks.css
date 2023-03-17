@@ -1,17 +1,16 @@
 .blocks {
-    background-color: rgb(33, 21, 57);
-
+    background: linear-gradient(0deg,  rgb(23, 16, 41) 100%, rgb(22, 23, 33) 0%);
+    padding: 50px 24px 50px 24px ;
 }
 
 .title__left {
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
-    align-items: center;
-    text-align: justify;
-    font-size: 60px;
-    padding: 0 0 0 50px;
+    text-align: left;
+    font-size: 40px;
+    padding: 0 0 0 70px;
     font-weight: lighter;
-    display: flex;
+    
 }
         
 .title__right {
@@ -24,52 +23,6 @@
     font-size: 20px;
     
 }
-
-.blocks__card{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, 225px);
-    width: 100%;
-    max-width: 1200px;
-    justify-content: center;
-    justify-items: center;
-    column-gap: 40px;
-    row-gap:30px;
-    margin: 0 auto;
-}
-
-.blocks__card__first{
-    width: 225px;
-    min-height: 350px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
-    overflow: hidden;
-    flex: 0 0 220px; 
-}
-.blocks__card__first__image{
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 25%;
-    height: 25%;
-}
-.blocks__card__first__title{
-    color: var(--accent-color);
-    font-size: 10px;
-    font-family: 'Lato', sans-serif;
-
-}
-.blocks__card__first__text{
-    font-family: 'Abril Fatface', cursive;
-    color: var(--main-color);
-    font-size: 40px;
-}
-.blocks__card__first__info{
-    color: turquoise;
-    font-size: 10px;
-}
-
 
 
 
