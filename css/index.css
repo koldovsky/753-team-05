@@ -1,8 +1,8 @@
-@import "global.css" ;
-@import "sponsors.css";
-@import "features.css";
-@import url(tickets.css);
-@import url("our-gallery.css");
-@import "blocks.css";
-@import url("footer.css");
+@import "global.css";
 @import "welcome.css";
+@import "features.css";
+@import "tickets.css";
+@import "our-gallery.css";
+@import "blocks.css";
+@import "sponsors.css";
+@import "footer.css";
