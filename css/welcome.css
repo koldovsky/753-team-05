@@ -3,6 +3,7 @@
     padding: 50px 24px 50px 24px;
     text-align: left;
     min-width: 320px;
+    font-family: 'Lato',sans-serif;
 }
 .welcome__cards {
     display: flex;
@@ -19,10 +20,9 @@
     display: inline-block;
 }
 .cards__text {
-    color:  rgba(255,255,255,0.65);
+    color: var(--text-tickets-color);
     font-size: 16px;
     line-height: 1.6;
-    font-family: Lato,sans-serif;
     font-weight: 400;
     display: inline-block;
     display: block;
@@ -43,7 +43,6 @@
     color: var(--main-color);
     display: block;
     margin-top: 130px;
-    
 }
 .welcome__information-party-nevada {
     color: var(--accent-color);
@@ -51,14 +50,14 @@
     margin-top: 30px;
 }
 .welcome__information-text {
-    color:  rgba(255,255,255,0.65);
+    color:  var(--text-tickets-color);
     display: block;
     margin-top: 30px;
 }
 .welcome__button {  
     background-color: rgb(23, 16, 41);
     border-radius: 2px;
-    border: 3px solid white;
+    border: 3px solid var(--h2-color);
     color: var(--main-color);
     cursor: pointer;
     font-weight: 700;
