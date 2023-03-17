@@ -3,6 +3,6 @@
 @import "features.css";
 @import "tickets.css";
 @import url("our-gallery.css");
-@import "blocks.css"
-@import url(sponsors.css);
-@import url("footer.css");
+@import "blocks.css";
+@import "sponsors.css";
+@import "footer"
