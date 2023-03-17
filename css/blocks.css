@@ -5,7 +5,13 @@
 
 .title{
     width: 100%;
-    display: inline-block;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+
+    padding: 20px;
 }
 
 .title__left {
