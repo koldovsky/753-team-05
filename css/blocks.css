@@ -17,7 +17,7 @@
 .title__right {
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
-    text-align:left;
+    text-align:center;
     width: 300px;
     align-items: center;
     margin:auto;
@@ -35,15 +35,14 @@
     column-gap: 40px;
     row-gap:30px;
     margin: 0 auto;
-    
-    
 }
 
 .blocks__card__first{
     width: 225px;
-    min-height: 400px;
+    min-height: 350px;
+    display: flex;
+    position: relative;
     flex-direction: column;
-    
     overflow: hidden;
     flex: 0 0 220px; 
 }
@@ -65,11 +64,11 @@
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
     font-size: 15px;
-    display: block;
-    margin-bottom: 10px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 150%;
+     display: block;
+  margin-bottom: 10px;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 150%;
 }
 .blocks__card__first__info{
     color: turquoise;
