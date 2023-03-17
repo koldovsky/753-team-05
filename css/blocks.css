@@ -17,7 +17,7 @@
 .title__right {
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
-    text-align:center;
+    text-align:left;
     width: 300px;
     align-items: center;
     margin:auto;
@@ -35,14 +35,13 @@
     column-gap: 40px;
     row-gap:30px;
     margin: 0 auto;
+    position: relative;
+    flex-direction: column;
 }
 
 .blocks__card__first{
     width: 225px;
-    min-height: 350px;
-    display: flex;
-    position: relative;
-    flex-direction: column;
+    min-height: 500px;
     overflow: hidden;
     flex: 0 0 220px; 
 }
@@ -66,13 +65,13 @@
     font-size: 15px;
     display: block;
     margin-bottom: 10px;
-    font-weight: 400;
-    font-size: 17px;
-    line-height: 150%;
+    font-weight: 200;
+
+    line-height: 100%;
 }
 .blocks__card__first__info{
     color: turquoise;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 
