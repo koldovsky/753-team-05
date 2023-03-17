@@ -63,16 +63,11 @@
 .blocks__card__first__text{
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
-    font-size: 15px;
-     display: block;
-  margin-bottom: 10px;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 150%;
+    font-size: 40px;
 }
 .blocks__card__first__info{
     color: turquoise;
-    font-size: 20px;
+    font-size: 10px;
 }
 
 
