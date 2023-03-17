@@ -24,11 +24,12 @@
     color: var(--accent-color);
     text-align:left;
     width: 300px;
-    align-items: center;
+    align-items: left;
     display: block;
     font-size: 20px;
-    
 }
+
+
 
 
 
