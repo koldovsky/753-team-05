@@ -3,6 +3,11 @@
     padding: 50px 24px 50px 24px ;
 }
 
+.title{
+    width: 100%;
+    display: inline-block;
+}
+
 .title__left {
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
@@ -10,16 +15,17 @@
     font-size: 40px;
     padding: 0 0 0 70px;
     font-weight: lighter;
+    display: block;
     
 }
         
 .title__right {
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
-    text-align:center;
+    text-align:left;
     width: 300px;
     align-items: center;
-    margin:auto;
+    display: block;
     font-size: 20px;
     
 }
