@@ -1,0 +1,68 @@
+.tickets {
+    background: var(--bg-tickets-color);
+    min-width: 320px;
+    padding: 50px 24px 50px 24px;
+    text-align: center; 
+}
+
+.tickets__title {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--h2-color);
+    font-size: 40px;
+}
+
+.ticket__sub-title {
+    color: var(--sub-title-tickets-color);
+    font-size: 18px;
+    line-height: 1.6;
+    font-family:'Lato', sans-serif;
+    font-weight: 400;
+    padding-top: 30px;
+}
+
+.tickets__level-party {
+    align-items: center ;
+}
+
+.tickets__icon {
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;   
+}
+
+.level-party__title {
+    font-family: Lato,sans-serif;
+    color: var(--h2-color);
+    font-size: 20px;
+}  
+
+.level-party__text {
+    color: var(--text-tickets-color);
+    font-family: Lato,sans-serif;
+    padding-top: 20px;
+}
+
+@media (min-width: 768px) {
+    .ticket__newcomer-fan {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+    }
+    .tickets__level-party {
+        width: 50%;
+    }
+}
+
+@media (min-width: 992px) {
+    .ticket__newcomer-fan {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .tickets__level-party {
+        width: 33%;
+       
+    }
+}
+
