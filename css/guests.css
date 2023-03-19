@@ -1,5 +1,5 @@
 .guests {
-    background: url("../img/guests_background_round.png") right center no-repeat, var(--bg-guests);
+    background: url("../img/guests_background_round.png") right center no-repeat / auto, var(--bg-guests);
     width: auto;
 }
 
@@ -34,7 +34,6 @@
 }
 
 .guest__content__text {
-    font-size: 4;
     color: var(--text-tickets-color);
 }
 
