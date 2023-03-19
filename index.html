@@ -11,19 +11,24 @@
         type="image/x-icon">
     <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
     <link rel="stylesheet" href="css/index.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&family=Lato&display=swap"
+    rel="stylesheet"
+  />
    <style>
         .contacts {background-color: rgb(102, 25, 126);}
     </style>
 </head>
 
 <body>
-
-    <header class="header">
-            <!--Ihor Malkov-->
-      <div class="header__line">
-        <a href="#" class="logo"
+<!--Igor Malkov-->
+  <header class="header">
+    <div class="header__container">
+      <div class="header__body">
+        <a href="#" class="header__logo"
           ><img width="60" src="img/logo.svg" alt="web-site logo"
         /></a>
+        <div class="header__burger"><span></span></div>
         <nav class="header__menu">
           <ul class="menu__list">
             <li class="menu__item">
@@ -39,39 +44,39 @@
               <a href="#" class="menu__link">Contact Us</a>
             </li>
           </ul>
+          <ul class="social__platforms">
+            <li class="social__items">
+              <a href="#" class="social__links">
+                <img
+                  width="30"
+                  height="30"
+                  src="img/facebook.svg"
+                  alt="facebook logo"
+                />
+              </a>
+            </li>
+            <li class="social__items">
+              <a href="#" class="social__links">
+                <img
+                  width="30"
+                  height="30"
+                  src="img/instagram.svg"
+                  alt="instagram logo"
+                />
+              </a>
+            </li>
+            <li class="social__items">
+              <a href="#" class="social__links"
+                ><img
+                  width="30"
+                  height="30"
+                  src="img/youtube.svg"
+                  alt="youtube logo"
+                />
+              </a>
+            </li>
+          </ul>
         </nav>
-        <ul class="social__platforms">
-          <li class="social__items">
-            <a href="#" class="social__links">
-              <img
-                width="30"
-                height="30"
-                src="img/facebook.svg"
-                alt="facebook logo"
-              />
-            </a>
-          </li>
-          <li class="social__items">
-            <a href="#" class="social__links">
-              <img
-                width="30"
-                height="30"
-                src="img/instagram.svg"
-                alt="instagram logo"
-              />
-            </a>
-          </li>
-          <li class="social__items">
-            <a href="#" class="social__links"
-              ><img
-                width="30"
-                height="30"
-                src="img/youtube.svg"
-                alt="youtube logo"
-              />
-            </a>
-          </li>
-        </ul>
       </div>
       <div class="main__title">
         <p class="main__event">
@@ -89,9 +94,12 @@
         </p>
       </div>
       <form action="index.html">
-        <button class="learn__more button">Learn more →</button>
+        <button class="learn__more button">
+          <p class="button__text">Learn more →</p>
+        </button>
       </form>
-    </header>
+    </div>
+  </header>
 
 
     <main>
@@ -378,7 +386,7 @@
           </div>
         </section>
       </footer>
-
+      <script src="index.js"></script>
 </body>
 
 </html>
