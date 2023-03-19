@@ -1,5 +1,5 @@
 .guests {
-    background: var(--bg-guests);
+    background: url("../img/guests_background_round.png") right center no-repeat, var(--bg-guests);
     width: auto;
 }
 
@@ -17,16 +17,9 @@
 .guest__image__instance {
     object-fit: cover;
     border-radius: 100%;
-    /* height: 100%;
-    width: 100%; */
     width: 120px;
     height: 120px;
 }
-/* 
-.guest__image {
-    width: 120px;
-    height: 120px;
-} */
 
 .guest__content__title {
     font-weight: bolder;
@@ -61,14 +54,12 @@
 }
 
 .guests__title__complementary {
-    /* padding: 10px; */
     font-size: 20px;
     padding-top: 20px;
 }
 
 .guests__title__main {
     padding-left: 2%;
-    /* padding: 10px; */
     font-size: 35px;
     padding-bottom: 20px;
 }
@@ -86,10 +77,6 @@
     .guest__image__instance {
         width: 170px;
         height: 170px;
-    }
-
-    .guest__content {
-    
     }
 
     .guests__title {
