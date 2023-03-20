@@ -1,6 +1,12 @@
 .guests {
-    background: url("../img/guests_background_round.png") right, center, no-repeat, var(--bg-guests);
+    background: var(--bg-guests);
     width: auto;
+}
+
+.guests_background_image {
+    background-image: url("../img/guests_background_round.png");
+    background-repeat: no-repeat;
+    background-position: right;
 }
 
 .guest {
