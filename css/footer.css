@@ -3,3 +3,8 @@
     min-width: 320px;
     height: auto;
 }
+.get_in_touch_title {
+    font-family: 'Abril Fatface', cursive;
+    font-size: 60px;
+    letter-spacing: 1.8px;
+    color: var(--h2-color);
