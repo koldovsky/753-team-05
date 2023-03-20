@@ -42,3 +42,8 @@ font-weight: 400;
 font-size: 60px;
 padding: 0 0 0 10px;
 }
+.map_card{
+    background: linear-gradient(to bottom, #301D55FA, #0D0B16);
+    min-width: 320px;
+    height: auto;
+}
