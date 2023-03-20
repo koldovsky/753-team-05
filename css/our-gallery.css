@@ -1,10 +1,11 @@
 .our-gallery {
-    background-color: var(--bg-our-gallery-color);
+    background: linear-gradient(to bottom, #301D55FA, #0D0B16);
     min-width: 320px;
     height: auto;
   }
   
   .our-gallery__title {
+    color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-size: 60px;
@@ -13,12 +14,14 @@
   
   .our-gallery__description {
     color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
     margin: auto;
     width: 340px;
   }
   
   .our-gallery__additional {
+    color: var(--main-color);
     font-family: 'Lato', sans-serif;
     font-weight: 700;
     margin: auto;
@@ -111,6 +114,7 @@
   }
   
   .quote__title {
+    color: var(--main-color);
     display: block;
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
@@ -123,6 +127,7 @@
   }
   
   .quote__caption {
+    color: var(--main-color);
     display: block;
     font-family: 'Lato', sans-serif;
     text-align: center;
