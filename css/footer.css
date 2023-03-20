@@ -22,11 +22,12 @@
 
 .address_title {
     background: rgb(24, 24, 38);
-    color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
-    font-weight: 400;
-    font-size: 60px;
-    padding: 0 0 0 10px;
+    color: var(--main-color);
+    text-align: left;
+    font-size: 40px;
+    padding: 0 0 0 70px;
+    font-weight: lighter;
 }
 
 .address_description {
@@ -38,9 +39,10 @@
 }
 
 .contacts_title {
-    color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
-    font-weight: 400;
-    font-size: 60px;
-    padding: 0 0 0 10px;
-}
+    color: var(--main-color);
+    text-align: left;
+    font-size: 40px;
+    padding: 0 0 0 70px;
+    font-weight: lighter;
+
