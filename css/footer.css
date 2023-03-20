@@ -1,0 +1,49 @@
+.get_in_touch {
+    background: linear-gradient(to bottom, #301D55FA, #0D0B16);
+    min-width: 320px;
+    height: auto;
+}
+
+.footer_title {
+    color: var(--main-color);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 0 0 0 10px;
+}
+
+.footer_description {
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 340px;
+}
+
+.address_title {
+    color: var(--main-color);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 0 0 0 10px;
+}
+
+.address_description {
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 340px;
+}
+.contacts_title{
+color: var(--main-color);
+font-family: 'Abril Fatface', cursive;
+font-weight: 400;
+font-size: 60px;
+padding: 0 0 0 10px;
+}
+.map_card{
+    background: linear-gradient(to bottom, #301D55FA, #0D0B16);
+    min-width: 320px;
+    height: auto;
+}
