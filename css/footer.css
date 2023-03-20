@@ -1,4 +1,8 @@
-
+.footer_bg {
+    background: #1b1631;
+    min-width: 320px;
+    height: auto;
+}
 
 .footer_title {
     color: var(--main-color);
@@ -31,17 +35,11 @@
     margin: auto;
     width: 340px;
 }
-.contacts_title{
-color: var(--main-color);
-font-family: 'Abril Fatface', cursive;
-font-weight: 400;
-font-size: 60px;
-padding: 0 0 0 10px;
-}
-.address{
-    
-.footer_bg {
-background: #1b1631;
-    min-width: 320px;
-    height: auto;
+
+.contacts_title {
+    color: var(--main-color);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 0 0 0 10px;
 }
