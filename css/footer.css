@@ -4,7 +4,9 @@
     height: auto;
 }
 .get_in_touch_title {
+    color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
     font-size: 60px;
-    letter-spacing: 1.8px;
-    color: var(--h2-color);
+    padding: 0 0 0 10px;
+}
