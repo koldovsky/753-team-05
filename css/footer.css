@@ -21,6 +21,7 @@
 }
 
 .address_title {
+    background: #1b1631;
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
