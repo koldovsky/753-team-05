@@ -1,8 +1,4 @@
-.get_in_touch {
-    background: #1b1631;
-    min-width: 320px;
-    height: auto;
-}
+
 
 .footer_title {
     color: var(--main-color);
@@ -43,7 +39,9 @@ font-size: 60px;
 padding: 0 0 0 10px;
 }
 .address{
-    background: linear-gradient(to bottom, #301D55FA, #0D0B16);
+    
+.footer_bg {
+background: #1b1631;
     min-width: 320px;
     height: auto;
 }
