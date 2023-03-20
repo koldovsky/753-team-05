@@ -1,5 +1,7 @@
 .guests {
-    background: url("../img/guests_background_round.png") right, center, no-repeat, var(--bg-guests);
+    background: url("../img/guests_background_round.png"), var(--bg-guests);
+    background-repeat: no-repeat;
+    background-position: right;
     width: auto;
 }
 
