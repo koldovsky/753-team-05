@@ -1,5 +1,5 @@
 .footer_bg {
-    background: #1b1631;
+    background: rgb(18, 18, 26);
     min-width: 320px;
     height: auto;
 }
@@ -21,7 +21,7 @@
 }
 
 .address_title {
-    background: #1b1631;
+    background: rgb(18, 18, 26);
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
