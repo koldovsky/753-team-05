@@ -21,7 +21,11 @@
     --text-tickets-color: rgba(255, 255, 255, 0.65);
     --bg-button-welcome: rgb(23, 16, 41);
     --bg-welcome: linear-gradient(0deg,  rgb(23, 16, 41) 100%, rgb(22, 23, 33) 0%);
-    --bg-guests: linear-gradient(to bottom, rgb(11,10,20), rgb(24,16,41));
+    --bg-guests: linear-gradient(to bottom, rgb(11,10,20), rgb(29,19,53));
+    --guest-text-color: rgba(255,255,255,0.66);
+    --guest-date-color: rgb(169,191,211);
+    --guest-name-color: white;
+    --guests-title-description: rgb(169,191,211);
     scroll-behavior: smooth;
 }
 

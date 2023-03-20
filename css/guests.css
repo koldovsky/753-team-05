@@ -1,6 +1,8 @@
 .guests {
     background: var(--bg-guests);
     width: auto;
+    min-width: 320px;
+    font-family: 'Lato', sans-serif;
 }
 
 .guests_background_image {
@@ -28,19 +30,23 @@
 }
 
 .guest__content__title {
+    font-size: 20px;
     font-weight: bolder;
-    color: var(--text-tickets-color);
+    color: var(--guest-name-color)
 }
 
 .guest__content__date {
     margin-top: 20px;
     margin-bottom: 20px;
     font-weight: bolder;
-    color: var(--text-tickets-color);
+    font-size: 14px;
+    color: var(--guest-date-color);
 }
 
 .guest__content__text {
-    color: var(--text-tickets-color);
+    font-size: 17px;
+    line-height: 27px;
+    color: var(--guest-text-color);
 }
 
 .guest__content {
@@ -51,11 +57,15 @@
 }
 
 .guests__title {
+    padding: 15px;
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
+    color: var(--guest-name-color);
+}
 
-    color: var(--text-tickets-color);
+.guests__title > p {
+    color: var(--guests-title-description);
 }
 
 .guests__title__complementary {
@@ -67,6 +77,11 @@
     padding-left: 2%;
     font-size: 35px;
     padding-bottom: 20px;
+}
+
+.guests__intro__image {
+    object-fit: cover;
+    height: 310px;
 }
 
 @media (min-width: 760px) {
@@ -107,5 +122,9 @@
 @media (min-width: 977px) {
     .guests__title__main {
         font-size: 45px;
+    }
+
+    .guests__intro__image {
+        height: 570px;
     }
 }
