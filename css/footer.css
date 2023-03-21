@@ -1,0 +1,48 @@
+.footer_bg {
+    background: rgb(24, 24, 38);
+    min-width: 320px;
+    height: auto;
+}
+
+.footer_title {
+    color: var(--main-color);
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 60px;
+    padding: 0 0 0 10px;
+}
+
+.footer_description {
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 340px;
+}
+
+.address_title {
+    background: rgb(24, 24, 38);
+    font-family: 'Abril Fatface', cursive;
+    color: var(--main-color);
+    text-align: left;
+    font-size: 40px;
+    padding: 0 0 0 70px;
+    font-weight: lighter;
+}
+
+.address_description {
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 340px;
+}
+
+.contacts_title {
+    font-family: 'Abril Fatface', cursive;
+    color: var(--main-color);
+    text-align: left;
+    font-size: 40px;
+    padding: 0 0 0 70px;
+    font-weight: lighter;
+}
