@@ -5,32 +5,38 @@
 
 
 .title {
-display: inline;
+display: flex;
 
 }
 
 .title__left {
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
-    text-align: center;
     font-weight: 400;
-    padding: 0 0 0 20px;
-    display: inline;
-    font-size: 60px;
-    align-items: center;
+    display:flex;
+    font-size: 80px;
+    justify-content: center;
+    align-items: flex-start;
 }
         
 .title__right {
     color: var(--accent-color);
-    text-align:center;
+    font-family: 'Lato', sans-serif;
     margin: auto;
+    display: flex;
     align-items: center;
     width: 340px;
     letter-spacing: 1.8px;
-    display: inline;
+   
 }
 
+@media (min-width:760px){
 
+
+}
+@media (min-width: 980px){
+
+}
 
 
 
