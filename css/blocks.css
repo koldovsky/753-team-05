@@ -42,8 +42,8 @@
 }
 .block__image {
     position: relative;
-    display: grid;
-    display-template-columns: 1fr;
+    display: flex;
+   
 }
 
 .block__image img {
