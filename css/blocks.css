@@ -57,7 +57,7 @@ display: flex;
 }
 .blocks__card__content__text{
     font-family: 'Abril Fatface', cursive;
-    color: var(--main-color)
+    color: var(--main-color);
     font-size: 24px;
     line-height: 1.4;
     letter-spacing: 0.3em;
