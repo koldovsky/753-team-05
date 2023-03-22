@@ -5,7 +5,6 @@
 
 .title {
     display: grid;
-    padding: 15px;
     grid-template-columns: 1fr;
     position:relative;
 
@@ -13,17 +12,15 @@
 .title__left {
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
-    font-weight: 400;
     font-size: 80px;
-    justify-content: center;
     align-items: flex-start;
-    margin: auto;
+    
 }    
 .title__right {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     font-size: 20px;
-    padding-top: 20px;
+    justify-content: center;
 }
 
 
@@ -40,12 +37,19 @@
     background-color: rgb(22, 13, 47);
     margin: auto;
     justify-content: center;
+
    
     
 }
 .block__image{
+    position: relative;
+    display: grid;
+    display-template-columns: 1fr 1fr;
+}
+
+.block__image img{
     height:300px;
-    width:290px;
+    width:400px;
 }
 
 .block__content{
@@ -57,15 +61,15 @@
     font-family: 'Lato', sans-serif;
     color: var(--accent-color);
     text-align: left;
-    font-size: 13px;
+    font-size: 20px;
     line-height: 1.7;
     margin-left: auto;
     display: flex;
 }
 .block__content__text{
     font-family: 'Abril Fatface', cursive;
-    color: var(--main-color);
-    font-size: 24px;
+    color: var(--accent-color);
+    font-size: 30px;
     line-height: 1.4;
     letter-spacing: 0.3em;
     font-weight: 400;
@@ -73,7 +77,7 @@
     text-align: left;
     display: flex;
 }
-.blocks__content__info{
+.block__content__info{
     color:aquamarine;
     font-size: 16px;
     font-family: 'Lato', sans-serif;
@@ -83,6 +87,7 @@
     max-width: 100%;
     text-align: left;
     display: flex;
+
 }
 
 @media (min-width:760px){
@@ -92,7 +97,7 @@
     .blocks__card{
         display: grid;
         grid-template-columns: 1fr;
-         gap:15px;
+         gap:5px;
      }
 
 }
@@ -108,6 +113,4 @@
          gap:15px;
      }
 }
-
-
 
