@@ -13,10 +13,11 @@ display: flex;
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
     font-weight: 400;
-    display:flex;
+   
     font-size: 80px;
     justify-content: center;
     align-items: flex-start;
+    margin: auto;
 }
         
 .title__right {
@@ -30,7 +31,7 @@ display: flex;
     padding: 15px;
 }
 .blocks__card{
-    display:grid;
+    display:flex;
     align-items:center;
     position: relative;
     grid-template-columns: 1fr 1fr;
@@ -39,7 +40,7 @@ display: flex;
 .blocks__card__content{
     background-color: rgb(22, 13, 47);
     margin: auto;
-    width: 80%;
+    width: 40%;
     
 }
 .blocks__cards__content__image img{
@@ -56,6 +57,7 @@ display: flex;
 }
 .blocks__card__content__text{
     font-family: 'Abril Fatface', cursive;
+    color: var(--main-color)
     font-size: 24px;
     line-height: 1.4;
     letter-spacing: 0.3em;
@@ -75,15 +77,29 @@ display: flex;
 }
 
 @media (min-width:768px){
-    .blocks__card{
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-        gap:15px;
+    .title__left{
+        font-size: 60px;
     }
+    .blocks__card{
+        display: grid;
+        grid-template-columns: 1fr;
+         gap:15px;
+     }
+
+
 
 }
 @media (min-width: 992px){
+    .title__left{
+        font-size: 80px;
+    }
+    
 
+    .blocks__card{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+         gap:15px;
+     }
 }
 
 
