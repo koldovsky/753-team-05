@@ -67,7 +67,7 @@
 }
 .block__content__text {
     font-family: 'Abril Fatface', cursive;
-    color: var(--accent-color);
+    color: var(--main-color);
     font-size: 30px;
     line-height: 1.4;
     letter-spacing: 0.3em;
