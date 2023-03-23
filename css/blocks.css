@@ -71,14 +71,14 @@
 .block__content__info {
     color:aquamarine;
     font-size: 16px;
-    font-family: 'Lato', bold;
+    font-family: 'Lato', ;
     line-height: 1.6;
     font-weight: 400;
     position: relative;
     max-width: 100%;
     text-align: left;
     display: flex;
-
+    font-weight:bold;
 }
 
 @media (min-width:760px) {
