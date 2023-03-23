@@ -104,10 +104,11 @@
     }
     .title__left {
         font-size: 50px;
+        flex:1;
     }
     .title__right{
-        justify-content: center;
-        align-items: center;
+        flex:1;
+
     }
     
     .blocks__card {
