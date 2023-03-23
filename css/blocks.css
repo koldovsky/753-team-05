@@ -1,6 +1,12 @@
 .blocks {
     background: linear-gradient(0deg,  rgb(23, 16, 41) 100%, rgb(22, 23, 33) 0%);
-    min-width:320px;
+    width: auto;
+    min-width: 320px;
+}
+
+.blocks__area {
+    /* min-width: 320px; */
+    width: auto;
 }
 
 .title {
@@ -24,37 +30,23 @@
     justify-content: center;
 }
 
-
 .blocks__card {
     display:grid;
     align-items:center;
     position: relative;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
     justify-content: center;
     
 }
 
 .blocks__card__content {
     background-color: rgb(22, 13, 47);
+    width: auto;
     margin: auto;
     justify-content: center;
 
 }
-.block__image {
-    position: relative;
-    display: flex;
-   
-}
 
-.block__image img {
-    height:300px;
-    width:400px;
-}
-
-.block__content {
-    flex-grow: 1;
-    padding-left:20px;
-}
 
 .block__content__title {
     font-family: 'Lato', sans-serif;
@@ -90,26 +82,72 @@
 }
 
 @media (min-width:760px) {
+
+
+    .blocks__card__content {
+        display: flex;
+      flex-direction: column;
+  height: 100%;
+    }
+
+    .block__image {
+        object-fit: cover;
+        flex: 1;
+       
+    }
+    .block__content {
+        flex: 1;
+    
     .title__left{
         font-size: 50px;
     }
     .blocks__card {
         display: grid;
-        grid-template-columns: 1fr;
+        grid-template-columns: 1fr 1fr;
          gap:5px;
      }
 
-}
+ }
 @media (min-width: 992px) {
+    .blocks__card__content {
+        display: flex;
+        height: 100%;
+        /* grid-template-columns: 1fr 1fr; */
+    }
+
+    .block__image {
+        object-fit: cover;
+        flex-basis: 50%;
+        /* width: auto; */
+        /* position: relative; */
+        /* display: flex; */
+       
+    }
+
+    .block__content {
+        flex-basis: 50%;
+    }
+
     .title__left{
         font-size: 80px;
     }
-    
 
+    .block__content {
+        flex-basis: 50%;
+    }
+
+    .block__image {
+        object-fit: cover;
+        flex-basis: 50%;
+        /* width: auto; */
+        /* position: relative; */
+        /* display: flex; */
+       
+    }
+    
     .blocks__card {
         display: grid;
         grid-template-columns: 1fr 1fr;
          gap:15px;
      }
 }
-
