@@ -85,9 +85,9 @@
 
 
     .blocks__card__content {
-        display: flex;
-      flex-direction: column;
-  height: 100%;
+         display: flex;
+         flex-direction: column;
+         height: 100%;
     }
 
     .block__image {
@@ -97,8 +97,9 @@
     }
     .block__content {
         flex: 1;
+    }
     
-    .title__left{
+    .title__left {
         font-size: 50px;
     }
     .blocks__card {
@@ -106,8 +107,8 @@
         grid-template-columns: 1fr 1fr;
          gap:5px;
      }
+    }
 
- }
 @media (min-width: 992px) {
     .blocks__card__content {
         display: flex;
@@ -118,9 +119,7 @@
     .block__image {
         object-fit: cover;
         flex-basis: 50%;
-        /* width: auto; */
-        /* position: relative; */
-        /* display: flex; */
+    
        
     }
 
