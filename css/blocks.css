@@ -71,7 +71,7 @@
 .block__content__info {
     color:aquamarine;
     font-size: 16px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Lato', bold;
     line-height: 1.6;
     font-weight: 400;
     position: relative;
@@ -104,6 +104,10 @@
     }
     .title__left {
         font-size: 50px;
+    }
+    .title__right{
+        justify-content: center;
+        align-items: center;
     }
     
     .blocks__card {
