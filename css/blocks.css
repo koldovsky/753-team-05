@@ -98,10 +98,14 @@
     .block__content {
         flex: 1;
     }
-    
+    .title{
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
     .title__left {
         font-size: 50px;
     }
+    
     .blocks__card {
         display: grid;
         grid-template-columns: 1fr 1fr;
