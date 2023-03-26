@@ -102,36 +102,52 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: auto;
-    min-width: 320px;
+    height: 720px;
+    width: 100%;
+    position: relative;
+    text-align: center;
   }
   
   .quote__image {
-    display: block;
-    height: 100%;
-    margin: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     width: auto;
+    z-index: 1;
   }
   
   .quote__title {
     color: var(--main-color);
-    display: block;
+    display: flex; 
+    justify-content: center; 
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
     font-size: 40px;
-    height: 100%;
-    margin: auto;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
     text-align: center;
-    padding-top: 150px; 
-    padding-bottom: 150px;
+    z-index: 2;
   }
   
   .quote__caption {
     color: var(--main-color);
-    display: block;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 150px;
+    position: absolute;
+    width: 100%;
+  }
+
+  .quote__caption-line1, .quote__caption-line2 {
     font-family: 'Lato', sans-serif;
     text-align: center;
     font-size: 16px;
-    padding-top: 30px; 
-    padding-bottom: 30px;
+    width: 100%;
   }
