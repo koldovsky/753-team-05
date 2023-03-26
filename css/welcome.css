@@ -7,7 +7,7 @@
 }
 .welcome__cards {
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
 }
 .cards__image {
     width: 50px;
@@ -75,4 +75,22 @@
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
+}
+@media (min-width: 760px) {
+    .welcome__cards-cards-container {
+        display: flex;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+    .cards__listen {
+        flex: 1;
+        flex-basis: 0;
+    }
+    .cards__dance {
+        flex: 1;
+        flex-basis: 0;
+    }
+    .cards__meet {
+        flex: 1;
+        flex-basis: 0;
+    }
 }
