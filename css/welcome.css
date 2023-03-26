@@ -43,18 +43,25 @@
     display: block;
     margin-top: 50px;
     text-align: center;
+    font-size: 50px;
+    font-family: Abril Fatface, cursive;
 }
 .welcome__information-party-nevada {
     color: var(--accent-color);
     display: block;
     margin-top: 30px;
     text-align: center;
+    word-wrap: break-word;
+    font-size: 18px;
+    font-family: Lato,sans-serif;
 }
 .welcome__information-text {
     color:  var(--text-tickets-color);
     display: block;
     margin-top: 30px;
     text-align: center;
+    font-size: 16px;
+    font-family: Lato, sans-serif;
 }
 .welcome__button {  
     background-color: var(--bg-button-welcome);
