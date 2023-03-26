@@ -10,7 +10,7 @@
     flex-wrap: wrap;
 }
 .cards__image {
-    width: 50px;
+    width: 70px;
     float: left;
     margin-bottom: 20px;
 }
@@ -18,7 +18,8 @@
     color: var(--main-color);
     margin-bottom: 10px;
     margin-left: 70px;
-    font-weight: bold
+    font-weight: bold;
+    font-size: 24px;
 }
 .cards__text {
     color: var(--text-tickets-color);
@@ -27,6 +28,7 @@
     font-weight: 400;
     margin-bottom: 20px;
     margin-left: 70px;
+    font-size: 16px;
 }
 .welcome__information {
     width: 100%;
@@ -94,3 +96,22 @@
         flex-basis: 0;
     }
 }
+@media screen and (min-width: 768px) {
+    .welcome__information {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+    }
+    
+    .welcome__information-image {
+    margin-left: 30px;
+    margin-right: 0;
+    }
+    
+    .welcome__information-title,
+    .welcome__information-party-nevada,
+    .welcome__information-text, 
+    .welcome__button {
+    flex: 1;
+    }
+    }
