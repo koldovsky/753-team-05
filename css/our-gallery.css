@@ -95,43 +95,4 @@
       }
   }
   
-  /* quote section */
-  .quote {
-    background-attachment: fixed;
-    background-image: url('../img/quote-background.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: auto;
-    min-width: 320px;
-  }
-  
-  .quote__image {
-    display: block;
-    height: 100%;
-    margin: auto;
-    width: auto;
-  }
-  
-  .quote__title {
-    color: var(--main-color);
-    display: block;
-    font-family: 'Abril Fatface', cursive;
-    font-weight: 400;
-    font-size: 40px;
-    height: 100%;
-    margin: auto;
-    text-align: center;
-    padding-top: 150px; 
-    padding-bottom: 150px;
-  }
-  
-  .quote__caption {
-    color: var(--main-color);
-    display: block;
-    font-family: 'Lato', sans-serif;
-    text-align: center;
-    font-size: 16px;
-    padding-top: 30px; 
-    padding-bottom: 30px;
-  }
+

@@ -1,0 +1,55 @@
+.quote__container {
+    background-attachment: fixed;
+    background-image: url('../img/quote-background.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 720px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  
+.quote__image {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: auto;
+    z-index: 1;
+  }
+  
+.quote__title {
+    color: var(--main-color);
+    display: flex; 
+    justify-content: center; 
+    font-family: 'Abril Fatface', cursive;
+    font-weight: 400;
+    font-size: 40px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    z-index: 2;
+  }
+  
+.quote__caption {
+    color: var(--main-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    bottom: 150px;
+    position: absolute;
+    width: 100%;
+  }
+
+.quote__caption-line1, .quote__caption-line2 {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+  }
