@@ -81,4 +81,7 @@
     .map{
         display: flex;
     }
+    .get_in_touch {
+        padding-right: 20px;
+    }
 }
