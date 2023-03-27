@@ -1,10 +1,9 @@
-@media screen and (max-width: 1199px) {
 .footer_bg {
     background: rgb(15, 15, 20);
     min-width: 320px;
     height: auto;
 }
-
+@media screen and (max-width: 1199px) {
 .footer_title {
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
