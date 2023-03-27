@@ -4,16 +4,12 @@
     height: auto;
 }
 
-.map{
-    min-width: 320px;
-    height: auto;
-}
 
 .get_in_touch_title {
     font-family: 'Abril Fatface', cursive;
     font-size: 60px;
     letter-spacing: 1.8px;
-    color: var(--h2-color)
+    color: var(--h2-color);
 }
 
 .get_in_touch_text {
@@ -71,18 +67,4 @@
     letter-spacing: 1.8px;
     margin: auto;
     width: 320px;
-}
-
-@media (min-width: 768px) {
-    .footer {
-        display: block;
-    }
-}
-@media (min-width: 992px) {
-    .map{
-        display: flex;
-    }
-    .get_in_touch {
-        padding-right: 20px;
-    }
 }
