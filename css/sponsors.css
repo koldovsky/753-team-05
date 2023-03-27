@@ -16,15 +16,9 @@
 }
 
 .sponsors {
-    background-attachment: fixed;
     background: url(../img/mountains.png);
     background-position: center;
-    background-repeat: no-repeat;
     background-size: cover;
-    height: 720px;
-    width: 100%;
-    position: relative;
-    text-align: center;
     display: block;
     padding: 24px;
 }
