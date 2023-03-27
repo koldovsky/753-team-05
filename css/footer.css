@@ -53,7 +53,7 @@
 
 .contacts_title {
     font-family: 'Abril Fatface', cursive;
-    color: var(--accent-color);
+    color: rgb(48, 29, 85);
     text-align: left;
     font-size: 40px;
     padding: 0 0 0 70px;
