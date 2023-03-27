@@ -4,6 +4,10 @@
     min-width: 320px;
     height: auto;}
 }
+@media (min-width: 992px) {
+    .footer_bg {
+        display: flex;
+    }
 
 .footer_title {
     color: var(--main-color);
