@@ -21,6 +21,12 @@
     width: 320px;
 }
 
+.address {
+    background: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
+    min-width: 320px;
+    height: auto;
+}
+
 .address_title {
     background: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
     font-family: 'Abril Fatface', cursive;
@@ -41,7 +47,7 @@
 
 .contacts_title {
     font-family: 'Abril Fatface', cursive;
-    color: var(--main-color);
+    color: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
     text-align: left;
     font-size: 40px;
     padding: 0 0 0 70px;
@@ -49,14 +55,6 @@
 }
 
 .get_in_touch {
-    color: var(--accent-color);
-    font-family: 'Lato', sans-serif;
-    letter-spacing: 1.8px;
-    margin: auto;
-    width: 320px;
-}
-
-.map-card {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
