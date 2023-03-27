@@ -8,7 +8,7 @@
     .footer_bg {
         display: flex;
     }
-
+}
 .footer_title {
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
