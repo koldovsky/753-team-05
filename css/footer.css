@@ -5,7 +5,8 @@
 }
 
 .map{
-
+    min-width: 320px;
+    height: auto;
 }
 
 .get_in_touch_title {
@@ -23,6 +24,7 @@
     line-height: 28.8px;
     color: var(--accent-color);
     margin-top: 25px;
+    padding-right: 20px;
 }
 
 .address {
