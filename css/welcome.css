@@ -17,7 +17,7 @@
 .cards__title {
     color: var(--main-color);
     margin-bottom: 10px;
-    margin-left: 70px;
+    margin-left: 90px;
     font-weight: bold;
     font-size: 24px;
 }
@@ -27,7 +27,7 @@
     line-height: 1.6;
     font-weight: 400;
     margin-bottom: 20px;
-    margin-left: 70px;
+    margin-left: 90px;
     font-size: 16px;
 }
 .welcome__information {
@@ -40,7 +40,7 @@
     margin-right: 20px;
     object-position: 50% 100%;
 }
-.welcome__informayion-title {
+.welcome__information-title {
     color: var(--main-color);
     display: block;
     margin-top: 50px;
@@ -96,3 +96,27 @@
         flex-basis: 0;
     }
 }
+@media (min-width: 760px) {
+    .welcome__information {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      font-size: inherit;
+    }
+    .welcome__information-image {
+      width: 50%;
+    }
+    .welcome__information-text {
+      width: 50%;
+      margin-left: 20px;
+    }
+    .welcome__information-title {
+      margin-top: 0;
+    }
+    .welcome__information-party-nevada {
+      margin-top: 10px;
+    }
+    .welcome__button {
+      margin-top: 10px;
+    }
+  }
