@@ -1,4 +1,4 @@
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 1199px) {
 .footer_bg {
     background: rgb(15, 15, 20);
     min-width: 320px;
@@ -48,6 +48,17 @@
     font-weight: lighter;
 }
 .get_in_touch{
-
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 320px;
+}
+.map-card{
+    color: var(--accent-color);
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 1.8px;
+    margin: auto;
+    width: 320px;
 }
 }
