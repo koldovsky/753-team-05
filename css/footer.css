@@ -1,9 +1,10 @@
+@media (min-width: 768px) {
 .footer_bg {
     background: rgb(15, 15, 20);
     min-width: 320px;
-    height: auto;
+    height: auto;}
 }
-@media screen and (max-width: 1199px) {
+
 .footer_title {
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
@@ -59,5 +60,4 @@
     letter-spacing: 1.8px;
     margin: auto;
     width: 320px;
-}
 }
