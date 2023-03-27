@@ -96,22 +96,3 @@
         flex-basis: 0;
     }
 }
-@media screen and (min-width: 768px) {
-    .welcome__information {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    }
-    
-    .welcome__information-image {
-    margin-left: 30px;
-    margin-right: 0;
-    }
-    
-    .welcome__information-title,
-    .welcome__information-party-nevada,
-    .welcome__information-text, 
-    .welcome__button {
-    flex: 1;
-    }
-    }
