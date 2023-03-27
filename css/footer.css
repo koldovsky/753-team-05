@@ -4,6 +4,9 @@
     height: auto;
 }
 
+.map{
+
+}
 
 .get_in_touch_title {
     font-family: 'Abril Fatface', cursive;
@@ -69,3 +72,13 @@
     width: 320px;
 }
 
+@media (min-width: 768px) {
+    .footer {
+        display: block;
+    }
+}
+@media (min-width: 992px) {
+    .map{
+        display: flex;
+    }
+}
