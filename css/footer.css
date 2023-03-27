@@ -1,3 +1,4 @@
+@media screen and (max-width: 767px) {
 .footer_bg {
     background: rgb(15, 15, 20);
     min-width: 320px;
@@ -45,4 +46,8 @@
     font-size: 40px;
     padding: 0 0 0 70px;
     font-weight: lighter;
+}
+.get_in_touch{
+
+}
 }
