@@ -58,10 +58,11 @@
 .bg__img {
     background-color: var(--bg-sponsors);
     display: flex;
+    padding: 20;
 }
 
 .bg__img img {
     margin: auto;
-    width: 50%;
+    width: 80%;
     object-fit: cover;
 }
