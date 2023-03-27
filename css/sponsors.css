@@ -16,6 +16,7 @@
 }
 
 .sponsors {
+    background-attachment: fixed;
     background: url(../img/mountains.png);
     background-position: center;
     background-size: cover;
