@@ -1,15 +1,11 @@
-@media (min-width: 768px) {
-.footer_bg {
-    background: rgb(15, 15, 20);
+.footer {
+    background: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
     min-width: 320px;
-    height: auto;}
+    height: auto;
 }
-@media (min-width: 992px) {
-    .footer_bg {
-        display: flex;
-    }
 
-.footer_title {
+
+.get_in_touch_title {
     color: var(--main-color);
     font-family: 'Abril Fatface', cursive;
     font-weight: 400;
@@ -17,7 +13,7 @@
     padding: 0 0 0 10px;
 }
 
-.footer_description {
+.get_in_touch_text {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
@@ -26,7 +22,7 @@
 }
 
 .address_title {
-    background: rgb(15, 15, 20);
+    background: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
     font-family: 'Abril Fatface', cursive;
     color: var(--main-color);
     text-align: left;
@@ -35,7 +31,7 @@
     font-weight: lighter;
 }
 
-.address_description {
+.address_text {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
@@ -51,18 +47,19 @@
     padding: 0 0 0 70px;
     font-weight: lighter;
 }
-.get_in_touch{
+
+.get_in_touch {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
     margin: auto;
     width: 320px;
 }
-.map-card{
+
+.map-card {
     color: var(--accent-color);
     font-family: 'Lato', sans-serif;
     letter-spacing: 1.8px;
     margin: auto;
     width: 320px;
-}
 }
