@@ -58,7 +58,7 @@
 .bg__img {
     background-color: var(--bg-sponsors);
     display: flex;
-    padding: 20;
+    padding: 20px;
 }
 
 .bg__img img {
