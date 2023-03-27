@@ -45,9 +45,15 @@
     width: 320px;
 }
 
+.contacts {
+    background: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
+    min-width: 320px;
+    height: auto;
+}
+
 .contacts_title {
     font-family: 'Abril Fatface', cursive;
-    color: linear-gradient(0deg, rgb(48, 29, 85) 0%, rgb(22, 23, 33) 100%);
+    color: var(--accent-color);
     text-align: left;
     font-size: 40px;
     padding: 0 0 0 70px;
