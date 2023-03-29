@@ -16,11 +16,13 @@
 }
 
 .sponsors {
-    background: url(../img/mountains.png);
+    background: linear-gradient(to bottom, rgb(22, 12, 46), rgba(0, 0, 0, 0.3)), url(../img/mountains.png);
     background-position: center;
     background-size: cover;
     display: block;
     padding: 24px;
+    padding-top: 100px;
+    height: 1000px;
 }
 
 .sponsors__img{
