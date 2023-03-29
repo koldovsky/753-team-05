@@ -22,14 +22,17 @@
 }
 
 .features__slider {
+    align-items: center;
+    justify-items: center;
     display: grid;
-    grid-template-columns: 30px 1fr 30px;
+    grid-template-columns: 40px 1fr 40px;
 }
 
 .features__slides {
     color: var(--main-color);
     display: flex;
     justify-content: space-between;
+    min-height: 400px;
 }
 
 .features__button {
@@ -51,6 +54,10 @@
     fill: var(--main-color);
     height: 12px;
     width: 12px;
+}
+
+.slide__image {
+    height: 250px;
 }
 
 .slide__heading {
