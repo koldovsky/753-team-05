@@ -21,8 +21,6 @@
     background-size: cover;
     display: block;
     padding: 24px;
-    padding-top: 100px;
-    height: 1000px;
 }
 
 .sponsors__img{
@@ -44,6 +42,10 @@
 } 
 
 @media (min-width: 992px) {
+    .sponsors {
+        padding-top: 100px;
+        height: 1000px;
+    }
     .sponsors_contant {
         display: flex;
     }
