@@ -32,7 +32,8 @@
 }
 .welcome__information {
     width: 100%;
-    display: inline-block;
+    display: flex;
+    justify-content: space-around;
     
 }
 .welcome__information-image {
