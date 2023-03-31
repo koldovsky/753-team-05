@@ -32,8 +32,7 @@
 }
 .welcome__information {
     width: 100%;
-    display: flex;
-    justify-content: space-around;
+    display: block
     
 }
 .welcome__information-image {
@@ -100,23 +99,29 @@
 @media (min-width: 760px) {
     .welcome__information {
       display: flex;
-      flex-direction: row;
       align-items: center;
+      flex-wrap: wrap;
       font-size: inherit;
     }
+    
     .welcome__information-image {
       width: 50%;
+      margin-right: 20px;
     }
+    
     .welcome__information-text {
       width: 50%;
-      margin-left: 20px;
     }
+    
     .welcome__information-title {
       margin-top: 0;
     }
+    
     .welcome__information-party-nevada {
       margin-top: 10px;
+      width: 50%;
     }
+    
     .welcome__button {
       margin-top: 10px;
     }
