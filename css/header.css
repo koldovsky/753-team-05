@@ -139,3 +139,9 @@
       top: 0;
     }
   }
+
+  @media(max-width:991px){
+    .header__container{
+      padding: 5%;
+    }
+  }
