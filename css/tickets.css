@@ -1,5 +1,8 @@
 .tickets {
     background: var(--bg-tickets-color);
+    background-position: center;
+    background-size: cover;
+    display: block;
     min-width: 320px;
     padding: 50px 24px 50px 24px;
     text-align: center; 
