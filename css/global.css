@@ -33,6 +33,8 @@
     --guest-date-color: rgb(169,191,211);
     --guest-name-color: white;
     --guests-title-description: rgb(169,191,211);
+    --blok-content-bg: rgb(29, 15, 54);
+    --blok-bg-main: linear-gradient(to bottom, rgb(20,14,36), rgb(22,13,48));
     scroll-behavior: smooth;
 }
 
