@@ -9,13 +9,6 @@
     box-sizing: border-box;
 }
 
-/*Dissable horizontal scrollbar for phone*/
-@media (max-width: 768px) {
-*{
-    overflow-x: hidden;
-}
-}
-
 :root {
     --h2-color: white;
     --main-color: rgb(255, 255, 255);

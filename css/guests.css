@@ -57,26 +57,30 @@
 }
 
 .guests__title {
-    padding: 15px;
+    padding: 5%;
     display: grid;
     grid-template-columns: 1fr;
     position: relative;
     color: var(--guest-name-color);
 }
 
-.guests__title > p {
+.guests__title>p {
     color: var(--guests-title-description);
 }
 
 .guests__title__complementary {
     font-size: 20px;
     padding-top: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .guests__title__main {
-    padding-left: 2%;
     font-size: 35px;
-    padding-bottom: 20px;
+    display: flex;
+    align-items: center;
+    height: 100%;
 }
 
 .guests__intro__image {
@@ -106,6 +110,7 @@
     .guests__title__complementary {
         flex: 1;
         flex-basis: 0;
+        padding-top: 0px;
     }
 
     .guests__title__main {
