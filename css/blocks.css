@@ -25,7 +25,7 @@
  .blocks {
      padding: 2rem;
      background: var(--blok-bg-main);
-
+     min-width: 320px;
  }
 
  .block {
