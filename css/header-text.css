@@ -9,7 +9,9 @@
   .main__title {
     padding-top: 175px;
   }
-  
+  .marker{
+    color: white;
+  }
   .main__text {
     font-family: Abril Fatface, cursive;
     font-size: 92px;
@@ -36,7 +38,13 @@
   
   @media (max-width: 766px) {
     .main__text {
-      font-size: 60px;
+      font-size: 55px;
+    }
+    .sub__text{
+      font-size: 15px;
+    }
+    .main__title {
+      padding-top: 150px;
     }
   }
   
