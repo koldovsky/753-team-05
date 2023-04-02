@@ -1,10 +1,15 @@
-document.addEventListener("DOMContentLoaded", function () {
-    const headerBurger = document.querySelector(".header__burger");
-    const headerMenu = document.querySelector(".header__menu");
-  
-    headerBurger.addEventListener("click", function (event) {
-      headerBurger.classList.toggle("active");
-      headerMenu.classList.toggle("active");
-    });
+const burgerMenu = document.querySelector(".header__menu");
+const burgerIcon = document.querySelector(".header__burger");
+const menuLinks = document.querySelectorAll(".menu__link");
+
+menuLinks.forEach(link => {
+  link.addEventListener("click", () => {
+    burgerMenu.classList.remove("active");
+    burgerIcon.classList.remove("active");
   });
-  
+});
+
+burgerIcon.addEventListener("click", () => {
+  burgerMenu.classList.toggle("active");
+  burgerIcon.classList.toggle("active");
+});
