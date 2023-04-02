@@ -3,6 +3,7 @@
     width: 100%;
     background-size: cover;
     height: 925px;
+    min-width: 320px;
   }
   
   .header__container {
