@@ -70,7 +70,7 @@ span {
 .our-gallery__slides {
   align-items: center;
   display: flex;
-  gap: 20px;
+  gap: 25px;
   justify-content: space-between;
   min-height: 420px;
   width: 100%;
