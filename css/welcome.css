@@ -1,6 +1,5 @@
 .welcome {
     background: var(--bg-welcome);
-    padding: 50px 24px 50px 24px;
     text-align: left;
     min-width: 320px;
     font-family: 'Lato',sans-serif;
@@ -8,6 +7,7 @@
 .welcome__cards {
     display: flex;
     flex-wrap: wrap;
+    padding: 2.5rem;
 }
 .cards__image {
     width: 70px;
@@ -30,38 +30,44 @@
     margin-left: 90px;
     font-size: 16px;
 }
+.some_class {
+    display: grid;
+    padding: 0.5rem 5%;
+}
 .welcome__information {
     width: 100%;
     display: block
-    
+    padding: 3rem 1.5rem;
 }
 .welcome__information-image {
-    padding-top: 30px;
-    margin-right: 20px;
-    object-position: 50% 100%;
+    object-fit: cover;
+}
+.welcome__information-image_wraper {
+    height: 100%;
+    width: 100%;
 }
 .welcome__information-title {
     color: var(--main-color);
     display: block;
     margin-top: 50px;
-    text-align: center;
     font-size: 50px;
     font-family: Abril Fatface, cursive;
 }
 .welcome__information-party-nevada {
     color: var(--accent-color);
+    line-height: 30px;
+    letter-spacing: 2px;
     display: block;
     margin-top: 30px;
-    text-align: center;
     word-wrap: break-word;
     font-size: 18px;
     font-family: Lato,sans-serif;
 }
 .welcome__information-text {
     color:  var(--text-tickets-color);
+    line-height: 27px;
     display: block;
     margin-top: 30px;
-    text-align: center;
     font-size: 16px;
     font-family: Lato, sans-serif;
 }
@@ -75,10 +81,39 @@
     padding: 16px 25px;
     display: block;
     margin-top: 30px;
-    margin-left: auto;
     margin-right: auto;
 }
 @media (min-width: 760px) {
+    .welcome__information {
+        padding: 3rem 3rem;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .welcome__information-image_wraper {
+        flex: 1;
+        flex-basis: 0;
+        padding: 0 15px;
+    }
+    .some_class {
+        flex: 1;
+        flex-basis: 0;
+        margin: 0 15px;
+        display: grid;
+        padding: 0.5rem 2rem;
+    }
+    .welcome__information-title {
+        text-align: left;
+    }
+    .welcome__information-text {
+        text-align: left;
+    }
+    .welcome__information-party-nevada {
+        text-align: left;
+    }
+    .welcome__button {
+        margin-left: 0%;
+        height: 47px;
+    }
     .welcome__cards-cards-container {
         display: flex;
         grid-template-columns: 1fr 1fr 1fr;
@@ -94,35 +129,5 @@
     .cards__meet {
         flex: 1;
         flex-basis: 0;
-    }
-}
-@media (min-width: 760px) {
-    .welcome__information {
-      display: flex;
-      align-items: center;
-      flex-wrap: wrap;
-      font-size: inherit;
-    }
-    
-    .welcome__information-image {
-      width: 50%;
-      margin-right: 20px;
-    }
-    
-    .welcome__information-text {
-      width: 50%;
-    }
-    
-    .welcome__information-title {
-      margin-top: 0;
-    }
-    
-    .welcome__information-party-nevada {
-      margin-top: 10px;
-      width: 50%;
-    }
-    
-    .welcome__button {
-      margin-top: 10px;
     }
   }
