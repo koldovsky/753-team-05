@@ -63,6 +63,7 @@
   
   .header__burger {
     display: none;
+    position: fixed;
   }
   
   @media (max-width: 991px) {
@@ -71,7 +72,6 @@
       position: relative;
       width: 30px;
       height: 20px;
-      position: relative;
       z-index: 3;
     }
     .header__burger span {
