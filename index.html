@@ -163,20 +163,28 @@
       </div>
     </section>
     <!--Yana Yatsiuk-->
-    <section class="our-gallery">
+    <section class="our-gallery__main container">
       <div class="our-gallery__text">
-        <h2 class="our-gallery__title text">Our Gallery</h2>
-        <p class="our-gallery__description text">Stunning photos from 2011-2022 summer parties taken by Peter Olson.
-        </p>
-        <p class="our-gallery__additional text">meet in <span class="our-gallery__year">2023</span></p>
+          <h2 class="our-gallery__title text">Our Gallery</h2>
+          <p class="our-gallery__description text">Stunning photos from 2011-2022 summer parties taken by Peter Olson.
+          </p>
+          <p class="our-gallery__additional text">meet in <span class="our-gallery__year"> 2023</span></p>
       </div>
       <div class="our-gallery__slider">
-        <img class="our-gallery__slider img" src="img/neon-woman.png" alt="Neon Woman">
-        <img class="our-gallery__slider img" src="img/club-party.png" alt="Club Party">
-        <img class="our-gallery__slider img" src="img/dj-controller.png" alt="DJ Controller">
-        <img class="our-gallery__slider img" src="img/club-concert.png" alt="Club Concert">
+          <div class="our-gallery__slides">
+              <img class="slide" src="img/neon-woman.png" alt="Neon Woman">
+              <img class="slide" src="img/club-party.png" alt="Club Party">
+              <img class="slide" src="img/dj-controller.png" alt="DJ Controller">
+              <img class="slide" src="img/club-concert.png" alt="Club Concert">
+          </div>
+          <div class="our-gallery__dots">
+              <span class="dot active"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+              <span class="dot"></span>
+          </div>
       </div>
-    </section>
+  </section>
     <section class="quote__container">
       <div class="quote__main-text">
         <h2 class="quote__title">Dancing in the middle of nowhere under the stars is just WOW.</h2>
@@ -417,6 +425,7 @@
   <script src="js/burger.js"></script>
   <script src="js/button.js"></script>
   <script src="js/features-carousel.js"></script>
+  <script src="js/our-gallery-slider.js"></script>
   <script src="js/button-show-more.js"></script>
   <script src="js/sponsors.js"></script>
 </body>
