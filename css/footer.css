@@ -103,6 +103,7 @@
     font-size: 17px;
     line-height: 27px;
     color: var(--accent-color);
+    text-decoration: none;
 }
 
 .footer_menu__item {
@@ -115,26 +116,8 @@
     transition: all 0.3s ease-in-out;
 }
 
-.social {
-    display: flex;
-}
-
-.social__platforms {
-    ;
-    display: flex;
-    text-align: center;
-    padding: 0 0 0 160px;
-}
-
-.social__items {
-
-    display: inline-block;
-    width: 30%;
-}
-
-.footer_menu {
-
-    display: flex;
+.footer_social_links img {
+    border-radius: 50%;
 }
 
 .logo_footer {
