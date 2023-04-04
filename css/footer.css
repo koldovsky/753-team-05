@@ -98,17 +98,29 @@
 }
 
 .contacts-number {
+
     font-family: "Lato", sans-serif;
     font-size: 17px;
     line-height: 27px;
     color: var(--accent-color);
 }
 
+.footer_menu__item {
+    margin-right: 17px;
+}
+
+.footer_menu__link {
+    text-decoration: none;
+    color: white;
+    transition: all 0.3s ease-in-out;
+}
+
 .social {
     display: flex;
 }
 
-.social__platforms {;
+.social__platforms {
+    ;
     display: flex;
     text-align: center;
     padding: 0 0 0 160px;
@@ -123,14 +135,6 @@
 .footer_menu {
 
     display: flex;
-}
-
-.menu__item {
-
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: nowrap;
 }
 
 .logo_footer {
