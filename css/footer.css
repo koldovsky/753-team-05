@@ -7,16 +7,33 @@
 
 .map {
     padding: 0 0 0 4px;
-    max-width: 320px;
+    min-width: 320px;
+
+}
+
+.get_in_touch .footer_background_img {
+    opacity: 0.4;
+    /* Встановлює прозорість */
+}
+
+.get_in_touch .footer_background_img img {
+    opacity: 1;
+    /* Скасовує прозорість для дочірніх елементів */
 }
 
 .get_in_touch {
-    color: var(--accent-color);
-    font-family: "Lato", sans-serif;
-    letter-spacing: 1.8px;
-    margin: auto;
-    width: 320px;
+    position: relative;
+    min-width: 320px;
 }
+
+.footer_background_img {
+    position: absolute;
+    bottom: 0;
+    opacity: 0.5;
+    min-width: 320px;
+    max-width: 400px;
+}
+
 
 .get_in_touch_title {
     display: flex;
@@ -26,7 +43,7 @@
     font-size: 60px;
     padding: 0 0 0 4px;
     margin: left;
-    width: 340x;
+    width: 320x;
 }
 
 .get_in_touch_text {
@@ -39,7 +56,7 @@
     color: var(--accent-color);
     margin-top: 25px;
     margin: left;
-    max-width: 340px;
+    max-width: 320px;
     padding: 0 0 0 4px;
 }
 
@@ -63,6 +80,7 @@
     font-size: 17px;
     line-height: 27px;
     color: var(--accent-color);
+    min-width: 320px;
 }
 
 .contacts {
