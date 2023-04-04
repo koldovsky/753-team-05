@@ -22,18 +22,15 @@
 }
 
 .get_in_touch {
-    position: relative;
     min-width: 320px;
 }
 
 .footer_background_img {
     position: absolute;
-    bottom: 0;
     opacity: 0.5;
     min-width: 320px;
     max-width: 400px;
 }
-
 
 .get_in_touch_title {
     display: flex;
@@ -98,7 +95,6 @@
 }
 
 .contacts-number {
-
     font-family: "Lato", sans-serif;
     font-size: 17px;
     line-height: 27px;
@@ -118,10 +114,6 @@
 
 .footer_social_links img {
     border-radius: 50%;
-}
-
-.logo_footer {
-    background: rgb(15, 16, 24);
 }
 
 .rights {
