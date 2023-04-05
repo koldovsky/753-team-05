@@ -33,6 +33,8 @@ html {
     --guests-title-description: rgb(169,191,211);
     --blok-content-bg: rgb(29, 15, 54);
     --blok-bg-main: linear-gradient(to bottom, rgb(20,14,36), rgb(22,13,48));
+    --footer-bg-main: rgb(15, 16, 24);
+    --footer-bg-map: rgb(32, 33, 40);
     scroll-behavior: smooth;
 }
 

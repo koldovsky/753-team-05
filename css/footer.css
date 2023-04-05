@@ -1,36 +1,97 @@
 .footer {
-    background: rgb(15, 16, 24);
+    background: var(--footer-bg-main);
     min-width: 320px;
-    padding: 50px 24px 50px 24px;
+
+    /* z-index: -2; */
     text-align: left;
 }
 
+.footer__content {
+    padding: 40px 24px 60px 24px;
+    display: grid;
+}
+
 .map {
-    padding: 0 0 0 4px;
-    min-width: 320px;
+    padding: 24px;
+    width: 100%;
+    background: var(--footer-bg-map);
 
 }
 
-.get_in_touch .footer_background_img {
+/* .footer_background_img {
     opacity: 0.4;
-    /* Встановлює прозорість */
+
 }
 
-.get_in_touch .footer_background_img img {
+footer_background_img {
     opacity: 1;
-    /* Скасовує прозорість для дочірніх елементів */
+
+} */
+
+ /* .get_in_touch::before {
+
+    background-image: url("../img/footer_background.webp");
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.5; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+  } */
+
+
+
+
+.footer_background_img {
+
+    background-image: url("../img/footer_background.webp");
+    opacity: 0.7; 
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 .get_in_touch {
-    min-width: 320px;
+    min-width: 100%;
+    display: grid;
+    padding: 8%;
+    opacity: 10;
 }
 
-.footer_background_img {
+.get_in_touch * {
+    opacity: 10;
+  }
+
+
+
+/* .get_in_touch .footer_background_img {
+    opacity: 0.4; */
+    /* Встановлює прозорість */
+/* } */
+
+/* .get_in_touch .footer_background_img img { */
+    /* opacity: 1; */
+    /* Скасовує прозорість для дочірніх елементів */
+/* } */
+
+/* .footer_background_img {
     position: absolute;
     opacity: 0.5;
-    min-width: 320px;
-    max-width: 400px;
-}
+
+    height: auto;
+    width: auto;
+} */
+
+/* .footer_background_img {
+    position: absolute;
+    opacity: 0.5;
+
+    height: auto;
+    width: auto;
+    
+} */
 
 .get_in_touch_title {
     display: flex;
@@ -38,9 +99,12 @@
     font-family: "Abril Fatface", cursive;
     font-weight: 400;
     font-size: 60px;
-    padding: 0 0 0 4px;
+    /* padding: 0 0 0 4px; */
+
+
+
     margin: left;
-    width: 320x;
+    width: 100%;
 }
 
 .get_in_touch_text {
@@ -53,14 +117,37 @@
     color: var(--accent-color);
     margin-top: 25px;
     margin: left;
-    max-width: 320px;
+    max-width: 100%;
     padding: 0 0 0 4px;
 }
 
-.address {
+/* .address {
     min-width: 320x;
     height: auto;
+} */
+
+
+
+.menu__footer{
+    display: grid;
+    grid-template-columns: 1fr;
+    padding-top: 40px;
+    height: 200px;
 }
+
+
+/* .footer__contacts__social_network {
+    display: grid;
+    grid-template-columns: 1fr;
+} */
+
+.footer__contacts__social_network {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 30px;
+}
+
+
 
 .address_title {
     font-family: "Abril Fatface", cursive;
@@ -69,7 +156,7 @@
     font-size: 40px;
     padding: 0 0 0 4px;
     font-weight: lighter;
-    min-width: 320px;
+    opacity: 1;
 }
 
 .address_text {
@@ -77,11 +164,9 @@
     font-size: 17px;
     line-height: 27px;
     color: var(--accent-color);
-    min-width: 320px;
 }
 
 .contacts {
-    min-width: 320px;
     height: auto;
 }
 
@@ -104,7 +189,6 @@
 
 .footer_menu__item {
     text-align: center;
-    margin-right: 17px;
 }
 
 .footer_menu__link {
@@ -114,12 +198,12 @@
     transition: all 0.3s ease-in-out;
 }
 
-.footer_social_links{
-    display: flex;
-}
-.footer_social_links img {
+/* .footer_social_links {
+    padding: 15px;
+} */
+/* .footer_social_links img {
     border-radius: 50%;
-}
+} */
 
 .rights {
     
@@ -127,4 +211,40 @@
     font-size: 17px;
     line-height: 27px;
     color: var(--accent-color);
+}
+
+
+.footer__description {
+text-align: center;
+}
+
+
+.logo_wraper {
+    padding: 15px;
+}
+
+
+.network__instance {
+    padding: 5px;
+}
+
+@media (min-width: 760px) {
+
+    .footer__content {
+        grid-template-columns: 1fr 1fr;
+        gap: 1rem;
+    }
+
+
+
+
+
+}
+
+
+@media (min-width: 980px) {
+    .menu__footer{
+        display: flex;
+        justify-content: center;
+    }
 }
