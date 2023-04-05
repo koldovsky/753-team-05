@@ -13,13 +13,18 @@
     text-align: center;
 }
 
-.features__description {
+.features__description,
+.features__joke {
     color: var(--accent-color);
     font-size: 18px;
     line-height: 28px;
     margin: 25px auto 45px;
     text-align: center;
     width: 80%;
+}
+
+.features__joke {
+    font-size: 25px;
 }
 
 .features__slider {
