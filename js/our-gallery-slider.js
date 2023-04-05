@@ -5,7 +5,7 @@
         ' <div class="slide"><img src="img/dj-controller.png" alt="DJ Controller"></div>',
         ' <div class="slide"><img src="img/club-concert.png" alt="Club Concert"></div>',  
     ];
-  
+
     const carousel = document.querySelector('.our-gallery__slider');
     const slideContainer = carousel.querySelector('.our-gallery__slider .our-gallery__slides');
   
@@ -27,8 +27,14 @@
           dot.classList.remove('active');
         }
       });
+  
+      const images = slideContainer.querySelectorAll('img');
+      images.forEach((image) => {
+        image.style.height = "380px";
+        image.style.width = "420px";
+      });
     }
-
+  
     renderSlides(slides);
   
     function nextSlide() {
