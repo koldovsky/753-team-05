@@ -1,50 +1,64 @@
-body {
-  background: linear-gradient(to bottom, #2A1A4A, #0D0B16);
+.our-gallery {
+  background: var(--our-gallery-bg-main);
 }
 
 .our-gallery__main {
   min-width: 320px;
   height: auto;
-  padding-bottom: 60px;
+  padding-bottom: 90px;
   padding-top: 50px;
 }
 
 .our-gallery__text {
-  display: flex;
+  display: grid;
   justify-content: space-around;
+  height: 270px;
+  width: 100%;
+  padding: 2rem;
 }
 .our-gallery__title {
   color: var(--main-color);
-  font-family: 'Abril Fatface', cursive;
+  font-family: "Abril Fatface", cursive;
   font-weight: 400;
   font-size: 60px;
   margin: auto;
   padding: 0 0 0 30px;
+  width: 100%;
+  text-align: center;
 }
-  
-.our-gallery__description {
+
+.our-gallery__description p {
   color: var(--accent-color);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
+  line-height: 27px;
   letter-spacing: 1.8px;
-  margin: auto;
-  width: 340px;
+  font-size: 18px;
 }
-  
-.our-gallery__additional {
+
+.our-gallery__description {
+  width: 100%;
+}
+
+.our-gallery__additional p {
   color: var(--main-color);
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: 700;
-  margin: auto;
-  padding: 0 20px;
+  text-align: right;
 }
-  
+
+.our-gallery__additional {
+  width: 100%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+}
+
 span {
   color: var(--span-color);
 }
 
 @media only screen and (max-width: 760px) {
   .our-gallery__text {
-    display: flex;
     justify-content: center;
   }
   .our-gallery__title {
@@ -62,7 +76,6 @@ span {
 
 @media only screen and (max-width: 977px) {
   .our-gallery__text {
-    display: flex;
     justify-content: center;
   }
   .our-gallery__additional {
@@ -123,6 +136,22 @@ span {
     margin: 0 auto;
     object-fit: cover;
   }
+
+  .our-gallery__text {
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+    height: auto;
+  }
+
+  .element {
+    display: flex;
+    padding: 10px;
+    align-items: center;
+  }
+
+  .our-gallery__text {
+    padding: 3rem;
+  }
 }
 
 @media (min-width: 977px) {
@@ -130,7 +159,7 @@ span {
     width: 33%;
   }
 }
-  
+
 .our-gallery__dots {
   position: absolute;
   cursor: pointer;
@@ -140,7 +169,7 @@ span {
   display: flex;
   justify-content: center;
 }
-  
+
 .dot {
   width: 10px;
   height: 10px;
@@ -148,7 +177,7 @@ span {
   border-radius: 5px;
   background-color: #bbb;
 }
-  
+
 .dot.active {
   background-color: #717171;
 }
@@ -158,5 +187,3 @@ span {
     transform: translateX(-50%);
   }
 }
-  
-
