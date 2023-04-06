@@ -13,6 +13,7 @@
     width: 70px;
     float: left;
     margin-bottom: 20px;
+    margin-left: 10px;
 }
 .cards__title {
     color: var(--main-color);
