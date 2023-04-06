@@ -45,6 +45,12 @@
     padding-top: 20px;
 }
 
+.sale-timer {
+    color: white;
+    font-size: 20px;
+    font-family: Lato,sans-serif;
+}
+
 @media (min-width: 768px) {
     .ticket__newcomer-fan {
         display: flex;
